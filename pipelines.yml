@@ -3,5 +3,5 @@
 #   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
 
 - pipeline.id: main
-  path.config: "/etc/logstash/conf.d/*.conf"
+  path.config: "/usr/share/logstash/pipeline"
   pipeline.workers: 1
